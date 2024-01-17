@@ -27,7 +27,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     max-width: 1170px;
-    margin: opx auto;
+    margin:0px;
     display: none;
 }
 
@@ -57,15 +57,16 @@ font-size: 36px;
 font-weight: 800;
 }
 
-.svg-style-hid{
-    /* display: none; */
+
+.svg-style{
+    padding-right: 20px;
 }
-.svg-style{}
 
 nav .link-style a {
     text-decoration: none;
     font-size: 20px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 nav a:nth-child(1) {
@@ -134,11 +135,11 @@ header {
 }
 
 .input-1 {
-    width: 140px;
-    height: 19px;
+    width: 103px;
+    height: 20px;
     padding: 14px 25px;
     margin-left: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     border: none;
 }
 
@@ -318,7 +319,19 @@ h2 {
 
 /* 4th section code start  */
 .swiming-pool {
-    background-image: url(/Images/swimming-pool.jpg);
+    background-image: url('../Images/Group\ 39.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 80vh;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    margin: 10px auto 40px auto;
+
+}
+.swiming-pool-2 {
+    background-image: url('../Images/Group\ 40.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -515,9 +528,11 @@ footer {
     display: flex;
     gap: 20px;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    width: 20%;
+    width: 100%;
     margin: 0px auto;
+   
 }
 
 .footer-style {
@@ -545,13 +560,9 @@ footer {
     .nav-style-2
     {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
     }
-    .svg-style-hid{
-        display: flex;
-    }
-    .svg-style{display: block;}
-
+   
     /* nav ber code start  */
     .nav-style {
         opacity: 0;
@@ -670,7 +681,7 @@ footer {
     }
 
     .package-style{
-        margin: 0 auto;
+        visibility: hidden;
     }
 
 
@@ -696,7 +707,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 20%;
+        width: 100%;
     }
     }
 
@@ -711,11 +722,6 @@ footer {
         display: flex;
       justify-content: space-between;
     }
-
-    .svg-style-hid{
-        display: flex;
-    }
-    .svg-style{display: block;}
 
     /* nav ber code start  */
     .nav-style {
@@ -833,7 +839,7 @@ footer {
         flex-direction: column;
     }
     .package-style{
-        margin: 0 auto;
+        visibility: hidden;
     }
 
 
@@ -870,11 +876,16 @@ footer {
 
     .nav-style-2{
         display: hidden;
-        justify-content: space-between;
+      
     }
 
     .nav-style{
-        display: non;
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 950px;
+    }
+    nav .link-style a{
+        margin-right: 0;
     }
 
     header {
@@ -1096,7 +1107,7 @@ input, select {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 20%;
+        width: 100%;
     }
 
 }
