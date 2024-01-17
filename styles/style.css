@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+.btn-2:hover{
+background-color:rgb(241, 227, 93);
+}
+.btn-1:hover{
+    background-color: gold ;
+}
+
 
 
 
@@ -428,6 +435,9 @@ margin: 0 auto;
 .link-blank a{
     text-decoration: none;
 }
+.link-blank a:hover{
+    background-color: green;
+}
 
 .video-text {
     width: 95%;
@@ -504,6 +514,9 @@ margin: 0 auto;
     background: rgb(240, 2, 200);
     padding: 0px;
     height: 40px;
+}
+.form-image .subscribe-style .submit-btn:hover{
+    background-color: #e01111;
 }
 
 .form-image .img-logo {
