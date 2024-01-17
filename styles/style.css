@@ -402,6 +402,10 @@ p {
 
 /* 5th section code start  */
 
+.video-section{
+    margin-top: 100px;
+}
+
 .package-style{  
 margin-top: 30px; 
 display: flex;
@@ -678,6 +682,10 @@ footer {
     /* 5th section code start */
     .video-text {
         flex-direction: column;
+    }
+
+    .video-section{
+        margin-top: 0px;
     }
 
     .package-style{
