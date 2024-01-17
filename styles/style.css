@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+
+
+
 * {
     padding: 0px;
     margin: 0px;
@@ -420,6 +423,10 @@ height: 52px;
 border-radius: 8px;
 background: #FF5400;
 margin: 0 auto;
+}
+
+.link-blank a{
+    text-decoration: none;
 }
 
 .video-text {
